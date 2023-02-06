@@ -1,0 +1,502 @@
+[
+    {
+        "id": 0,
+        "name": "Алтайский край",
+        "scraped_status": true
+    },
+    {
+        "id": 1,
+        "name": "Амурская область",
+        "scraped_status": true
+    },
+    {
+        "id": 2,
+        "name": "Архангельская область",
+        "scraped_status": true
+    },
+    {
+        "id": 3,
+        "name": "Астраханская область",
+        "scraped_status": true
+    },
+    {
+        "id": 4,
+        "name": "Белгородская область",
+        "scraped_status": true
+    },
+    {
+        "id": 5,
+        "name": "Брянская область",
+        "scraped_status": true
+    },
+    {
+        "id": 6,
+        "name": "Владимирская область",
+        "scraped_status": true
+    },
+    {
+        "id": 7,
+        "name": "Волгоградская область",
+        "scraped_status": true
+    },
+    {
+        "id": 8,
+        "name": "Вологодская область",
+        "scraped_status": true
+    },
+    {
+        "id": 9,
+        "name": "Воронежская область",
+        "scraped_status": false
+    },
+    {
+        "id": 10,
+        "name": "Город федерального значения Москва",
+        "scraped_status": false
+    },
+    {
+        "id": 11,
+        "name": "Город федерального значения Санкт-Петербург",
+        "scraped_status": false
+    },
+    {
+        "id": 12,
+        "name": "Город федерального значения Севастополь",
+        "scraped_status": false
+    },
+    {
+        "id": 13,
+        "name": "Еврейская автономная область",
+        "scraped_status": false
+    },
+    {
+        "id": 14,
+        "name": "Забайкальский край",
+        "scraped_status": false
+    },
+    {
+        "id": 15,
+        "name": "Ивановская область",
+        "scraped_status": false
+    },
+    {
+        "id": 16,
+        "name": "Иркутская область",
+        "scraped_status": false
+    },
+    {
+        "id": 17,
+        "name": "Кабардино-Балкарская Республика",
+        "scraped_status": false
+    },
+    {
+        "id": 18,
+        "name": "Калининградская область",
+        "scraped_status": false
+    },
+    {
+        "id": 19,
+        "name": "Калужская область",
+        "scraped_status": false
+    },
+    {
+        "id": 20,
+        "name": "Камчатский край",
+        "scraped_status": false
+    },
+    {
+        "id": 21,
+        "name": "Карачаево-Черкесская Республика",
+        "scraped_status": false
+    },
+    {
+        "id": 22,
+        "name": "Кемеровская область - Кузбасс",
+        "scraped_status": false
+    },
+    {
+        "id": 23,
+        "name": "Кировская область",
+        "scraped_status": false
+    },
+    {
+        "id": 24,
+        "name": "Костромская область",
+        "scraped_status": false
+    },
+    {
+        "id": 25,
+        "name": "Краснодарский край",
+        "scraped_status": false
+    },
+    {
+        "id": 26,
+        "name": "Красноярский край",
+        "scraped_status": false
+    },
+    {
+        "id": 27,
+        "name": "Курганская область",
+        "scraped_status": false
+    },
+    {
+        "id": 28,
+        "name": "Курская область",
+        "scraped_status": false
+    },
+    {
+        "id": 29,
+        "name": "Ленинградская область",
+        "scraped_status": false
+    },
+    {
+        "id": 30,
+        "name": "Липецкая область",
+        "scraped_status": false
+    },
+    {
+        "id": 31,
+        "name": "Магаданская область",
+        "scraped_status": false
+    },
+    {
+        "id": 32,
+        "name": "Московская область",
+        "scraped_status": false
+    },
+    {
+        "id": 33,
+        "name": "Мурманская область",
+        "scraped_status": false
+    },
+    {
+        "id": 34,
+        "name": "Ненецкий автономный округ",
+        "scraped_status": false
+    },
+    {
+        "id": 35,
+        "name": "Нижегородская область",
+        "scraped_status": false
+    },
+    {
+        "id": 36,
+        "name": "Новгородская область",
+        "scraped_status": false
+    },
+    {
+        "id": 37,
+        "name": "Новосибирская область",
+        "scraped_status": false
+    },
+    {
+        "id": 38,
+        "name": "Омская область",
+        "scraped_status": false
+    },
+    {
+        "id": 39,
+        "name": "Оренбургская область",
+        "scraped_status": false
+    },
+    {
+        "id": 40,
+        "name": "Орловская область",
+        "scraped_status": false
+    },
+    {
+        "id": 41,
+        "name": "Пензенская область",
+        "scraped_status": false
+    },
+    {
+        "id": 42,
+        "name": "Пермский край",
+        "scraped_status": false
+    },
+    {
+        "id": 43,
+        "name": "Приморский край",
+        "scraped_status": false
+    },
+    {
+        "id": 44,
+        "name": "Псковская область",
+        "scraped_status": false
+    },
+    {
+        "id": 45,
+        "name": "Республика Адыгея (Адыгея)",
+        "scraped_status": false
+    },
+    {
+        "id": 46,
+        "name": "Республика Алтай",
+        "scraped_status": false
+    },
+    {
+        "id": 47,
+        "name": "Республика Башкортостан",
+        "scraped_status": false
+    },
+    {
+        "id": 48,
+        "name": "Республика Бурятия",
+        "scraped_status": false
+    },
+    {
+        "id": 49,
+        "name": "Республика Дагестан",
+        "scraped_status": false
+    },
+    {
+        "id": 50,
+        "name": "Республика Ингушетия",
+        "scraped_status": false
+    },
+    {
+        "id": 51,
+        "name": "Республика Калмыкия",
+        "scraped_status": false
+    },
+    {
+        "id": 52,
+        "name": "Республика Карелия",
+        "scraped_status": false
+    },
+    {
+        "id": 53,
+        "name": "Республика Коми",
+        "scraped_status": false
+    },
+    {
+        "id": 54,
+        "name": "Республика Крым",
+        "scraped_status": false
+    },
+    {
+        "id": 55,
+        "name": "Республика Марий Эл",
+        "scraped_status": false
+    },
+    {
+        "id": 56,
+        "name": "Республика Мордовия",
+        "scraped_status": false
+    },
+    {
+        "id": 57,
+        "name": "Республика Саха (Якутия)",
+        "scraped_status": false
+    },
+    {
+        "id": 58,
+        "name": "Республика Северная Осетия - Алания",
+        "scraped_status": false
+    },
+    {
+        "id": 59,
+        "name": "Республика Татарстан (Татарстан)",
+        "scraped_status": false
+    },
+    {
+        "id": 60,
+        "name": "Республика Тыва",
+        "scraped_status": false
+    },
+    {
+        "id": 61,
+        "name": "Республика Хакасия",
+        "scraped_status": false
+    },
+    {
+        "id": 62,
+        "name": "Ростовская область",
+        "scraped_status": false
+    },
+    {
+        "id": 63,
+        "name": "Рязанская область",
+        "scraped_status": false
+    },
+    {
+        "id": 64,
+        "name": "Самарская область",
+        "scraped_status": false
+    },
+    {
+        "id": 65,
+        "name": "Саратовская область",
+        "scraped_status": false
+    },
+    {
+        "id": 66,
+        "name": "Сахалинская область",
+        "scraped_status": false
+    },
+    {
+        "id": 67,
+        "name": "Свердловская область",
+        "scraped_status": false
+    },
+    {
+        "id": 68,
+        "name": "Смоленская область",
+        "scraped_status": false
+    },
+    {
+        "id": 69,
+        "name": "Ставропольский край",
+        "scraped_status": false
+    },
+    {
+        "id": 70,
+        "name": "Тамбовская область",
+        "scraped_status": false
+    },
+    {
+        "id": 71,
+        "name": "Тверская область",
+        "scraped_status": false
+    },
+    {
+        "id": 72,
+        "name": "Томская область",
+        "scraped_status": false
+    },
+    {
+        "id": 73,
+        "name": "Тульская область",
+        "scraped_status": false
+    },
+    {
+        "id": 74,
+        "name": "Тюменская область",
+        "scraped_status": false
+    },
+    {
+        "id": 75,
+        "name": "Удмуртская Республика",
+        "scraped_status": false
+    },
+    {
+        "id": 76,
+        "name": "Ульяновская область",
+        "scraped_status": false
+    },
+    {
+        "id": 77,
+        "name": "Хабаровский край",
+        "scraped_status": false
+    },
+    {
+        "id": 78,
+        "name": "Ханты-Мансийский автономный округ - Югра",
+        "scraped_status": false
+    },
+    {
+        "id": 79,
+        "name": "Челябинская область",
+        "scraped_status": false
+    },
+    {
+        "id": 80,
+        "name": "Чеченская Республика",
+        "scraped_status": false
+    },
+    {
+        "id": 81,
+        "name": "Чувашская Республика - Чувашия",
+        "scraped_status": false
+    },
+    {
+        "id": 82,
+        "name": "Чукотский автономный округ",
+        "scraped_status": false
+    },
+    {
+        "id": 83,
+        "name": "Шельф Азовского моря",
+        "scraped_status": false
+    },
+    {
+        "id": 84,
+        "name": "Шельф Балтийского моря",
+        "scraped_status": false
+    },
+    {
+        "id": 85,
+        "name": "Шельф Баренцева моря",
+        "scraped_status": false
+    },
+    {
+        "id": 86,
+        "name": "Шельф Белого моря",
+        "scraped_status": false
+    },
+    {
+        "id": 87,
+        "name": "Шельф Берингова моря",
+        "scraped_status": false
+    },
+    {
+        "id": 88,
+        "name": "Шельф Восточно-Сибирского моря",
+        "scraped_status": false
+    },
+    {
+        "id": 89,
+        "name": "Шельф Карского моря",
+        "scraped_status": false
+    },
+    {
+        "id": 90,
+        "name": "Шельф Каспийского моря",
+        "scraped_status": false
+    },
+    {
+        "id": 91,
+        "name": "Шельф Моря Лаптевых",
+        "scraped_status": false
+    },
+    {
+        "id": 92,
+        "name": "Шельф Охотского моря",
+        "scraped_status": false
+    },
+    {
+        "id": 93,
+        "name": "Шельф Печорского моря",
+        "scraped_status": false
+    },
+    {
+        "id": 94,
+        "name": "Шельф Тихого океана",
+        "scraped_status": false
+    },
+    {
+        "id": 95,
+        "name": "Шельф Чукотского моря",
+        "scraped_status": false
+    },
+    {
+        "id": 96,
+        "name": "Шельф Чёрного моря",
+        "scraped_status": false
+    },
+    {
+        "id": 97,
+        "name": "Шельф Японского моря",
+        "scraped_status": false
+    },
+    {
+        "id": 98,
+        "name": "Ямало-Ненецкий автономный округ",
+        "scraped_status": false
+    },
+    {
+        "id": 99,
+        "name": "Ярославская область",
+        "scraped_status": false
+    }
+]
