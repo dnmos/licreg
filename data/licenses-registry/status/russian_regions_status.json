@@ -222,67 +222,67 @@
     {
         "id": 44,
         "name": "Псковская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 45,
         "name": "Республика Адыгея (Адыгея)",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 46,
         "name": "Республика Алтай",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 47,
         "name": "Республика Башкортостан",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 48,
         "name": "Республика Бурятия",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 49,
         "name": "Республика Дагестан",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 50,
         "name": "Республика Ингушетия",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 51,
         "name": "Республика Калмыкия",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 52,
         "name": "Республика Карелия",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 53,
         "name": "Республика Коми",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 54,
         "name": "Республика Крым",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 55,
         "name": "Республика Марий Эл",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 56,
         "name": "Республика Мордовия",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 57,
