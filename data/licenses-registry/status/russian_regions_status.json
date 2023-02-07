@@ -337,22 +337,22 @@
     {
         "id": 67,
         "name": "Свердловская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 68,
         "name": "Смоленская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 69,
         "name": "Ставропольский край",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 70,
         "name": "Тамбовская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 71,
