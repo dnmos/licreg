@@ -287,52 +287,52 @@
     {
         "id": 57,
         "name": "Республика Саха (Якутия)",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 58,
         "name": "Республика Северная Осетия - Алания",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 59,
         "name": "Республика Татарстан (Татарстан)",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 60,
         "name": "Республика Тыва",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 61,
         "name": "Республика Хакасия",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 62,
         "name": "Ростовская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 63,
         "name": "Рязанская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 64,
         "name": "Самарская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 65,
         "name": "Саратовская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 66,
         "name": "Сахалинская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 67,
