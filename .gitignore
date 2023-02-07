@@ -1,0 +1,6 @@
+__pycache__/
+env/
+data/bo/
+data/licenses-registry/json/*
+data/links/
+data-normal/*.json
