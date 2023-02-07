@@ -162,32 +162,32 @@
     {
         "id": 32,
         "name": "Московская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 33,
         "name": "Мурманская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 34,
         "name": "Ненецкий автономный округ",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 35,
         "name": "Нижегородская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 36,
         "name": "Новгородская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 37,
         "name": "Новосибирская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 38,
