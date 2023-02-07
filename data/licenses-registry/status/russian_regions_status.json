@@ -192,32 +192,32 @@
     {
         "id": 38,
         "name": "Омская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 39,
         "name": "Оренбургская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 40,
         "name": "Орловская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 41,
         "name": "Пензенская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 42,
         "name": "Пермский край",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 43,
         "name": "Приморский край",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 44,
