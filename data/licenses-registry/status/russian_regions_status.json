@@ -97,67 +97,67 @@
     {
         "id": 19,
         "name": "Калужская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 20,
         "name": "Камчатский край",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 21,
         "name": "Карачаево-Черкесская Республика",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 22,
         "name": "Кемеровская область - Кузбасс",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 23,
         "name": "Кировская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 24,
         "name": "Костромская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 25,
         "name": "Краснодарский край",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 26,
         "name": "Красноярский край",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 27,
         "name": "Курганская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 28,
         "name": "Курская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 29,
         "name": "Ленинградская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 30,
         "name": "Липецкая область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 31,
         "name": "Магаданская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 32,

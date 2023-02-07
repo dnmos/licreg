@@ -40,6 +40,8 @@ def russian_regions_read_status():
     elif region["id"] <= 99:
       print(region["id"])
       return region["id"]
+    else:
+      return 100
 
 
 def russian_regions_write_status(file_exists=True):
@@ -65,6 +67,8 @@ def russian_regions_write_status(file_exists=True):
     with open('/home/www/licreg/data/licenses-registry/status/russian_regions_status.json', 'w') as file:
       json.dump(russian_regions_list, file, indent=4, ensure_ascii=False)
 
+    return 0
+
   else:
 
     with open('/home/www/licreg/data/licenses-registry/status/russian_regions_status.json') as file:
@@ -76,6 +80,8 @@ def russian_regions_write_status(file_exists=True):
 
     with open('/home/www/licreg/data/licenses-registry/status/russian_regions_status.json', 'w') as file:
       json.dump(russian_regions, file, indent=4, ensure_ascii=False)
+    
+    return region_id
 
 
 def click_regions_filter(driver):
@@ -143,6 +149,10 @@ def get_request_number(driver, prev_request_number):
 
 
 def	get_source_json(url):
+    
+  region_id = russian_regions_read_status()
+  if region_id >= 99:
+      return region_id
   display = Display(visible=0, size=(800, 800))  
   display.start()
   driver = webdriver.Chrome()
@@ -155,7 +165,6 @@ def	get_source_json(url):
 
     click_regions_filter(driver)
     pages = get_pages(driver)
-    region_id = russian_regions_read_status()
     make_dir(region_id)
 
     first_request = get_first_request_number(driver)
@@ -178,7 +187,9 @@ def	get_source_json(url):
       with open(f"/home/www/licreg/data/licenses-registry/json/{region_id}/page_{page_number}.json", "w") as file:
         file.write(response_body_decoded)
 
-    russian_regions_write_status()
+    region_id = russian_regions_write_status()
+
+    return region_id 
 
   except Exception as _ex:
     print(_ex)
@@ -192,12 +203,13 @@ def	get_source_json(url):
 
 
 def main():
-  count = 0
+  
+  region_id = 0  
   while True:
-    if count == 9:
+    if region_id >= 99:
       break
-    get_source_json(url="https://rfgf.ru/ReestrLic/")
-    count += 1
+    region_id = get_source_json(url="https://rfgf.ru/ReestrLic/")
+    time.sleep(300)
 
 if __name__ == "__main__":
   main()
