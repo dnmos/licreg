@@ -47,52 +47,52 @@
     {
         "id": 9,
         "name": "Воронежская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 10,
         "name": "Город федерального значения Москва",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 11,
         "name": "Город федерального значения Санкт-Петербург",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 12,
         "name": "Город федерального значения Севастополь",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 13,
         "name": "Еврейская автономная область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 14,
         "name": "Забайкальский край",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 15,
         "name": "Ивановская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 16,
         "name": "Иркутская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 17,
         "name": "Кабардино-Балкарская Республика",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 18,
         "name": "Калининградская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 19,

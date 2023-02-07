@@ -4,10 +4,6 @@
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Initial server setup](#initial-server-setup)
-* [Domain name configure](#domain-name-configure)
-* [Install nginx](#install-nginx)
-* [Python components, virtualenv, gunicorn and flask](#python-components-virtualenv-gunicorn-and-flask)
-* [Relative links](#relative-links)
 
 ## General info
 Python scraping sites, data normalization, saving data to a mysql database, sql queries
