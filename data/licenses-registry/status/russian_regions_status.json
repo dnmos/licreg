@@ -497,6 +497,6 @@
     {
         "id": 99,
         "name": "Ярославская область",
-        "scraped_status": false
+        "scraped_status": true
     }
 ]

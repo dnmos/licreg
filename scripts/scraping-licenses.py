@@ -151,7 +151,7 @@ def get_request_number(driver, prev_request_number):
 def	get_source_json(url):
     
   region_id = russian_regions_read_status()
-  if region_id >= 99:
+  if region_id > 99:
       return region_id
   display = Display(visible=0, size=(800, 800))  
   display.start()
@@ -206,7 +206,7 @@ def main():
   
   region_id = 0  
   while True:
-    if region_id >= 99:
+    if region_id > 99:
       break
     region_id = get_source_json(url="https://rfgf.ru/ReestrLic/")
     time.sleep(300)
