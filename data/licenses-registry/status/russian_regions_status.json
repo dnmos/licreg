@@ -357,142 +357,142 @@
     {
         "id": 71,
         "name": "Тверская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 72,
         "name": "Томская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 73,
         "name": "Тульская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 74,
         "name": "Тюменская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 75,
         "name": "Удмуртская Республика",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 76,
         "name": "Ульяновская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 77,
         "name": "Хабаровский край",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 78,
         "name": "Ханты-Мансийский автономный округ - Югра",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 79,
         "name": "Челябинская область",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 80,
         "name": "Чеченская Республика",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 81,
         "name": "Чувашская Республика - Чувашия",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 82,
         "name": "Чукотский автономный округ",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 83,
         "name": "Шельф Азовского моря",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 84,
         "name": "Шельф Балтийского моря",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 85,
         "name": "Шельф Баренцева моря",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 86,
         "name": "Шельф Белого моря",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 87,
         "name": "Шельф Берингова моря",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 88,
         "name": "Шельф Восточно-Сибирского моря",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 89,
         "name": "Шельф Карского моря",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 90,
         "name": "Шельф Каспийского моря",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 91,
         "name": "Шельф Моря Лаптевых",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 92,
         "name": "Шельф Охотского моря",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 93,
         "name": "Шельф Печорского моря",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 94,
         "name": "Шельф Тихого океана",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 95,
         "name": "Шельф Чукотского моря",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 96,
         "name": "Шельф Чёрного моря",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 97,
         "name": "Шельф Японского моря",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 98,
         "name": "Ямало-Ненецкий автономный округ",
-        "scraped_status": false
+        "scraped_status": true
     },
     {
         "id": 99,
