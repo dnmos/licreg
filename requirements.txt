@@ -19,6 +19,7 @@ pycparser==2.21
 pyOpenSSL==23.0.0
 pyparsing==3.0.9
 PySocks==1.7.1
+python-dotenv==0.21.1
 PyVirtualDisplay==3.0
 selenium==4.8.0
 selenium-wire==5.1.0
