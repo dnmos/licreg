@@ -4,3 +4,4 @@ data/bo/
 data/licenses-registry/json/*
 data/links/
 data-normal/*.json
+.env
