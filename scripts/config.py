@@ -25,7 +25,7 @@ FILTERS_PATH = PROJECT_PATH + "data/licenses-registry/filters/"
 STATUS_PATH = PROJECT_PATH + "data/licenses-registry/status/"
 JSON_RESULT_PATH = PROJECT_PATH + "data/licenses-registry/json/"
 
-SQL_QUERIES_PATH = "licreg/scripts/sql/"
+SQL_QUERIES_PATH = "scripts/sql/"
 CREATE_TABLES_QUERY_PATH = PROJECT_PATH + SQL_QUERIES_PATH + "db_create_tables.sql"
 DROP_TABLES_QUERY_PATH = PROJECT_PATH + SQL_QUERIES_PATH + "db_drop_tables.sql"
 
