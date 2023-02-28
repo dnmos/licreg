@@ -67,7 +67,6 @@ def get_list_from_json(json_file_path, type_of_minerals_id, region_id):
   for row_number, row in enumerate(rows):
     list_of_values_in_row = []
     for col_number, col in enumerate(cols):
-      
       # Наличие полного электронного образа
       if col_number == 2:
         if values[col_number][row_number] and "Есть" in values[col_number][row_number]:
@@ -77,35 +76,35 @@ def get_list_from_json(json_file_path, type_of_minerals_id, region_id):
       # Вид полезного ископаемого
       elif col_number == 5:
         if values[col_number][row_number]:
-          list_of_values_in_row.append(type_of_minerals_id)
+          list_of_values_in_row.append(type_of_minerals_id + 1)
       # Регион
       elif col_number == 7:
         if values[col_number][row_number]:
-          list_of_values_in_row.append(region_id)
+          list_of_values_in_row.append(region_id + 1)
+        else:
+          list_of_values_in_row.append("")
       # Гео
-      elif col_number == 8:
+      elif col_number == 4 or col_number == 6 or col_number == 8:
         if values[col_number][row_number]:
           list_of_values_in_row.append(values[col_number][row_number])
         else:
           list_of_values_in_row.append("")
       # Статус участка
       elif col_number == 9:
-        if values[col_number][row_number] and "местного значения" in values[col_number][row_number]:
+        if values[col_number][row_number] and "Участок недр местного значения" in values[col_number][row_number]:
           list_of_values_in_row.append(1)
-        elif values[col_number][row_number] and "федерального значения" in values[col_number][row_number]:
+        elif values[col_number][row_number] and "Участок недр федерального значения" in values[col_number][row_number]:
           list_of_values_in_row.append(2)
-        elif values[col_number][row_number] and "не относящийся" in values[col_number][row_number]:
+        elif values[col_number][row_number]:
           list_of_values_in_row.append(3)
       # Пользователь недр
       elif col_number == 10:
         if values[col_number][row_number] and "ИНН" in values[col_number][row_number]:
-          list_of_values_in_row.append(values[col_number][row_number].split("ИНН")[0].strip(" ("))
+          # list_of_values_in_row.append(values[col_number][row_number].split("ИНН")[0].strip(" ("))
           list_of_values_in_row.append(values[col_number][row_number].split("ИНН")[1].strip(": ").strip(")"))
         elif not values[col_number][row_number]:
           list_of_values_in_row.append("нет данных")
-          list_of_values_in_row.append("нет данных")
         else:
-          list_of_values_in_row.append(values[col_number][row_number])
           list_of_values_in_row.append(values[col_number][row_number])
       # Ссылка на вход в систему АСЛН
       elif col_number == 20:
@@ -187,12 +186,10 @@ def insert_licenses_table(type_of_minerals_id, region_id):
       print(json_file_path)
       list = get_list_from_json(json_file_path, type_of_minerals_id, region_id)
       table_name = "`licenses_registry`"
-      columns = "`link_to_card`, `reg_number`, `el_image`, `reg_date`, "
-      columns += "`license_purpose`, `type_of_minerals`, `plot_name`, "
-      columns += "`russian_region`, `geo`, `plot_status`, `user`, `INN`, "
-      columns += "`gov_agency`, `base_doc`, `license_changes`, `license_renewal`, "
-      columns += "`order_details`, `termination_date`, `restriction`, "
-      columns += "`end_date`, `previous_licenses`"
+      columns = "`link_to_card`, `reg_number`, `el_image`, `reg_date`, `license_purpose`, "
+      columns += "`type_of_minerals`, `plot_name`, `russian_region`, `geo`, `plot_status`, "
+      columns += "`inn`, `gov_agency`, `base_doc`, `license_changes`, `license_renewal`, "
+      columns += "`order_details`, `termination_date`, `restriction`, `end_date`, `previous_licenses`"
 
       try:  
         connection = connect()
@@ -200,15 +197,13 @@ def insert_licenses_table(type_of_minerals_id, region_id):
         cursor = connection.cursor()
         values = ', '.join(map(str, list))
         query = f"INSERT INTO {table_name} ({columns}) VALUES {values}"
+        # print(query)
         cursor.execute(query)
         print("Query is executed")
         connection.commit()
-      except pymysql.err.IntegrityError as e:
-        if e.args[0] in (1062,):
-          print('Невозможно выполнить запрос:', e.args)
-          return None
-        else:
-          raise
+        print(page)
+      except Exception as e:
+        print(e)
       finally:
         connection.close()
         print("Сonnection is disconnected")

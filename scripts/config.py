@@ -11,16 +11,19 @@ DB_NAME = os.getenv("DB_NAME")
 DB_PASSWORD = os.getenv("DB_PASSWORD")
 
 # Filters (file names .json)
-FILTERS = ["federal-area", 
-            "license-status", 
-            "plot-status", 
-            "russian-regions", 
-            "type-of-minerals", 
-            "type-of-work"]
+# FILTERS = ["federal-area", 
+#             "license-status", 
+#             "plot-status", 
+#             "russian-regions", 
+#             "type-of-minerals", 
+#             "type-of-work"]
+FILTERS = ["plot-status", 
+           "russian-regions", 
+           "type-of-minerals"]
 
 # Paths
 PROJECT_PATH = "/home/www/licreg/"
-# PROJECT_PATH = "/home/dm/app/python/licreg/"
+#PROJECT_PATH = "/home/dm/app/python/licreg/"
 FILTERS_PATH = PROJECT_PATH + "data/licenses-registry/filters/"
 STATUS_PATH = PROJECT_PATH + "data/licenses-registry/status/"
 JSON_RESULT_PATH = PROJECT_PATH + "data/licenses-registry/json/"
